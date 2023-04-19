@@ -70,3 +70,75 @@ h1 {
     
 }
 
+@media screen and (max-width:900px){
+    :root {
+        --color-terminal: #292b36;
+        --borde-redondo: 4px;
+    }
+    
+    * {
+        font-family: 'Source Code Pro', monospace;
+    }
+    
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #5c4b7a;
+        color: white;
+        margin-left: 7vh;
+        margin-right: 7vh;
+    }
+    
+    input, button {
+        border: none;
+        outline: none;
+    }
+    
+    main {
+        padding: 25px;
+        box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+        border-radius: var(--borde-redondo);
+    }
+    
+    h1 {
+        margin: 0;
+    }
+    
+    #texto, #resultado {
+        background-color: var(--color-terminal);
+        width: 20vh;
+        height: 20vh;
+    }
+    
+    #texto {
+        margin: 10px 0 0;
+        padding: 10px;
+        color: white;
+        border-top-left-radius: var(--borde-redondo);
+        border-top-right-radius: var(--borde-redondo);
+    }
+    
+    #resultado {
+        height: 20px;
+        color: #5af78d;
+        padding: 0 10px 10px;
+        border-bottom-left-radius: var(--borde-redondo);
+        border-bottom-right-radius: var(--borde-redondo);
+        width: 20vh;
+        height: 20vh;
+    }
+    
+    #descifrar, #cifrar{
+        background-color: var(--color-terminal);
+        margin-top: 10px;
+        width: -webkit-fill-available;
+        height: 4vh;
+        border-top-left-radius: var(--borde-redondo);
+        border-top-right-radius: var(--borde-redondo);
+        color: aliceblue;
+        
+    }
+    
+}
