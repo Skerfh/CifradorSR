@@ -108,8 +108,9 @@ h1 {
     
     #texto, #resultado {
         background-color: var(--color-terminal);
-        width: 20vh;
-        height: 20vh;
+        width: fit-content;
+        height: fit-content;
+        block-size: fit-content;
     }
     
     #texto {
@@ -126,8 +127,9 @@ h1 {
         padding: 0 10px 10px;
         border-bottom-left-radius: var(--borde-redondo);
         border-bottom-right-radius: var(--borde-redondo);
-        width: 20vh;
-        height: 20vh;
+        width: fit-content;
+        height: fit-content;
+        block-size: fit-content;
     }
     
     #descifrar, #cifrar{
